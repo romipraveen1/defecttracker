@@ -14,6 +14,7 @@ public class DefectServiceImp implements DefectService{
 
 	@Autowired
 	DefectRepository defRepository;
+	
 	@Override
 	public Defect saveDefect(Defect defect) {
 		return defRepository.save(defect);		
